@@ -2,7 +2,7 @@
   "name": "slack-link-generator",
   "version": "1.0.0",
   "description": "Generate slack:// links to channels",
-  "main": "index.js",
+  "main": "src/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,13 @@
     "Slack"
   ],
   "author": "Dan Rumney <dancrumb@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "log4js": "^0.6.27",
+    "morgan": "^1.6.1",
+    "slack-api-client": "0.0.3"
+  }
 }
